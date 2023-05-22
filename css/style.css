@@ -1,0 +1,359 @@
+:root {
+  --primary: #67bbec;
+  --bg: #010101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "awesome", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+  min-height: 2300px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 7%;
+  background-color: rgb(1, 1, 1, 0.8);
+  border-bottom: 1px solid #35637e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar .navbar-logo span {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary);
+}
+
+.navbar .navbar-extra a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+  color: var(--primary);
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255) 3% rgba(255, 255, 255, 0.3) 25%
+  );
+}
+
+.hero .content {
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+}
+
+.hero .content h1 {
+  text-align: left;
+  font-size: 2.5em;
+  color: #0f0f0f;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0);
+}
+
+.hero .content p {
+  font-size: 1.3rem;
+  color: #010101;
+  margin-top: 0.2rem;
+  line-height: 1.4;
+  font-weight: 100;
+}
+
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  color: #010101;
+  background-color: var(--primary);
+  border-radius: 0.2rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+/* About section */
+.about {
+  padding: 6.5rem 7% 1.5rem;
+}
+
+.about h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.about h2 span {
+  color: var(--primary);
+}
+
+.about p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.about .row .about-card {
+  text-align: center;
+}
+
+.about .row .about-card img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.about .row .about-card .about-card-title {
+  margin-top: 1rem auto 0.5rem;
+}
+
+/* Materi Section */
+.materi,
+.menu {
+  padding: 6.5rem 7% 1.5rem;
+}
+
+.materi h2,
+.menu h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.materi .row {
+  display: flex;
+}
+
+.materi .row .materi-img {
+  flex: 1 1 10rem;
+}
+
+.materi .row .materi-img img {
+  width: 100%;
+}
+
+.materi .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.materi .row .content p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.materi .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #010101;
+  background-color: var(--primary);
+  border-radius: 0.2rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+/* hitung section */
+<style > <head > <title > Perkalian Dot Vektor</title > </head > body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f7f7;
+}
+
+h1 {
+  text-align: center;
+  color: #070707;
+}
+
+.container {
+  margin: auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+#hasil {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+}
+</style>
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  #hamburger-menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #fff;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    color: var(--bg);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
+  }
+
+  .navbar .navbar-nav a:hover:after {
+    transform: scaleX(0.2);
+  }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .about .row .content {
+    font-size: 1.6rem;
+  }
+
+  .menu p {
+    font-size: 1.2rem;
+  }
+
+  .materi .row {
+    flex-wrap: wrap;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perkalian Dot Vektor</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Father Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Kalkulus<span>.</span>II</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#materi">Materi</a>
+        <a href="#hitung">Hitung</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1><br></h1>
+        <h1>Halo!
+        </h1>
+        <p>
+          Selamat datang di kalkulus II. Materi yang akan dibahas kali ini yaitu mengenai "Perkalian Dot Vektor" 
+        </p>
+        <p>
+          Lihat materinya disini :
+        </p>
+        <a href="#materi" class="cta">Materi</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+<!-- About Section start -->
+<section id="about" class="about">
+  <h2><span>Profile</span>Kami</h2>
+  <p>Hai, Perkenalkan kami Mahasiswi Informatika kelas B
+  <div class="row">
+    <div class="about-card">
+      <img src="img/about/1.jpg"
+    alt="Maharani Argyanti Nurahman"class="about-card-img">
+    <h3 class="about-card-title">-Maharani Argyanti Nurahman-</h3>
+    <p class="About-card-npm">NPM 227006038</p>
+    </div class="row">
+    <div class="about-card">
+      <img src="img/about/2.jpg"
+    alt="Dhita Dwinandra Herniawan"class="about-card-img">
+    <h3 class="about-card-title">-Dhita Dwinandra Herniawan-</h3>
+    <p class="About-card-npm">NPM 227006036</p>
+    </div>
+    </section>
+    
+    <!-- About Section end -->
+    <!-- Materi Section start -->
+    <section id="materi" class="materi">
+      <h2>Perkalian Dot Vektor</h2>
+
+      <div class="row">
+      <div class="materi-img">
+        <img src="img/about-us.png" alt="About Us">
+      </div>
+      <div class="content">
+        
+        <p>Perkalian titik atau dot product dua buah vektor didefinisikan sebagai perkalian antara besar salah satu vektor (misalA) dengan komponen vektor kedua (B) pada arah vektor pertama (A).
+          <p>
+            Perkalian titik (dot product) dari dua vektor a dan b dinotasikan dengan a ‧ b.</p>
+        </p>
+        <P>
+          Misalkan a dan b adalah vektor-vektor bukan nol. Perkalian titik atau dot product dari a dan b, ditulis a ‧ b, didefinisikan a ‧ b = |a| |b| cos θ 
+        </P>
+        <P>
+          dimana :
+        </P>
+        <P>
+          |a| = panjang a
+        </P>
+        <P>
+          |b| = panjang b
+        </P>
+        <P>
+          θ = sudut antara a dan b
+        </P>
+        <P>
+          coba hitung menggunakan program berikut :
+        </P>
+        <a href="#hitung" class="cta">Ayo Menghitung</a>
+      </div>
+    </div>
+    
+      
+    </section>
+
+    <!-- Materi Section end -->
+
+
+
+    <!-- Hitung Section start -->
+    <section id="hitung" class="hitung">
+      <h1><br><br><br><br><br><br></h1>
+      <div class="container">
+        <h1>Perkalian Dot Vektor</h1>
+        <label for="v1">Masukkan vektor pertama:</label>
+        <input type="text" id="v1" placeholder="Contoh: 1,2,3" />
+        <label for="v2">Masukkan vektor kedua:</label>
+        <input type="text" id="v2" placeholder="Contoh: 4,5,6" />
+        <button onclick="hitung()">Hitung</button>
+        <p id="hasil"></p>
+      </div>
+    </section>
+
+
+    <!-- Hitung Section end -->
+
+    <!-- Father Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
